@@ -1,0 +1,9 @@
+'atom-workspace':
+  'ctrl-alt-s': 'selection-saver:toggle'
+  'ctrl-alt-o': 'selection-saver:add_selection_to_log'
+'atom-text-editor':
+  'z': 'selection-saver:add_selection_to_log'
+  'w': 'selection-saver:open_previous_file'
+  'q': 'core:close'
+  'b': 'core:page-up'
+  'space': 'core:page-down'

@@ -1,0 +1,25 @@
+'scopeName': 'source.redact'  
+'name': 'REDACT'  
+'fileTypes': ['.*']
+'patterns': [  
+  {
+    'match': '(?i:pass)'
+    'name': 'constant.numeric.integer.hexadecimal.python'
+  },
+  {
+    'match': '(?i:token)'
+    'name': 'constant.numeric.integer.hexadecimal.python'
+  },
+  {
+    'match': '(?i:secret)'
+    'name': 'constant.numeric.integer.hexadecimal.python'
+  },
+  {
+    'match': '(?i:id)'
+    'name': 'constant.numeric.integer.hexadecimal.python'
+  },
+  {
+    'match': '(?i:key)'
+    'name': 'constant.numeric.integer.hexadecimal.python'
+  }
+]

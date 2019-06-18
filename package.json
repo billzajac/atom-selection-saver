@@ -1,0 +1,17 @@
+{
+  "name": "selection-saver",
+  "main": "./lib/selection-saver",
+  "version": "0.0.0",
+  "description": "A package to allow for quick saving of meta-data around a selection",
+  "activationCommands": {
+    "atom-workspace": "selection-saver:toggle"
+  },
+  "repository": "https://github.com/billzajac/atom-selection-saver",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "event-stream": "latest"
+  }
+}

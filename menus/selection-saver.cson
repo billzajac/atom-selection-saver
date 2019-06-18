@@ -1,0 +1,29 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Selection Saver'
+      'submenu': [
+        {
+          'label': 'Add Selection to Log'
+          'command': 'selection-saver:add_selection_to_log'
+        }
+        {
+          'label': 'Toggle'
+          'command': 'selection-saver:toggle'
+        }
+      ]
+    ]
+  }
+]
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Add Selection to Log'
+      'command': 'selection-saver:add_selection_to_log'
+    },
+    {
+      'label': 'Toggle Selection Saver'
+      'command': 'selection-saver:toggle'
+    }
+  ]

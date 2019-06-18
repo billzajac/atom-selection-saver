@@ -1,0 +1,7 @@
+atom-pane-container atom-pane.active { height: 600px; }
+/* atom-pane-container { height: 100%; } */
+/* atom-pane-container atom-pane.active { max-height: 80%; } */
+/* atom-pane.active { height: 60em; } */
+/* atom-pane:not(.active) { height: 6em; } */
+/* atom-pane:last-of-type { height: 100px; } */
+/* atom-pane[data-name="selection-saver.zajaw002.log"] { height: 100px; } */
